@@ -12,7 +12,7 @@
 - Declerative programming with Aspect-Oriented-Programming (AOP).
 - Minimize boilerplate Java code.
 ## What are Spring "projects"?
-  - Additional Spring modules built-on top of the core Spring Framework.
+  - Additional Spring *modules* built-on top of the core Spring Framework.
   - Only use what you need...
     * Spring cloud, Spring data...
     * Spring batch, Spring security...
@@ -22,7 +22,7 @@
 - **The approach of outsourcing the construction and management of objects**
 - Outsource to a object factory.
 ## Some basic Spring Core projects with explaination
-1. spring-demo-one
+### 1. spring-demo-one
 - **Coding scenerio**
 
 ![image](https://user-images.githubusercontent.com/16172615/89800375-e7283b80-db58-11ea-8579-dcd4a0e5bdbf.png)
@@ -31,6 +31,6 @@
 	* Hockey, Cricket, Tennis, Gymnastics, ect...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1OTA0ODI3MiwxNzQyOTMwNzQzLDg5OT
-YyNDczMSwtMzk5NjM0MjQ2XX0=
+eyJoaXN0b3J5IjpbNDAxMjI3MDIxLDE5NTkwNDgyNzIsMTc0Mj
+kzMDc0Myw4OTk2MjQ3MzEsLTM5OTYzNDI0Nl19
 -->
