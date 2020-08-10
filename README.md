@@ -29,7 +29,7 @@
   * App should be configurable.
   * Easily change the coach for another sport
     + Hockey, Cricket, Tennis, Gymnastics, ect...
-hahahahaha
+   hihi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5OTYzNDI0Nl19
+eyJoaXN0b3J5IjpbODk5NjI0NzMxLC0zOTk2MzQyNDZdfQ==
 -->
