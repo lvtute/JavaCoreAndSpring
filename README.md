@@ -20,5 +20,13 @@
     * Spring Web Services, Spring LDAP...
 ## Inversion of Control (IoC)
 - **The approach of outsourcing the construction and management of objects**
+- Outsource to a object factory.
 ## Some basic Spring Core projects with explaination
-1. ToDo List
+1. spring-demo-one
+- **Coding scenerio**
+
+![image](https://user-images.githubusercontent.com/16172615/89800375-e7283b80-db58-11ea-8579-dcd4a0e5bdbf.png)
+  * App should be configurable.
+  * Easily change the coach for another sport
+    + Hockey, Cricket, Tennis, Gymnastics, ect...
+
