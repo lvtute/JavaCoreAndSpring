@@ -22,7 +22,7 @@
 - **The approach of outsourcing the construction and management of objects**
 - Outsource to a object factory.
 ## Some basic Spring Core projects with explaination
-### 1. spring-demo-onexxx
+### 1. spring-demo-one
 - **Coding scenerio**
 
 ![image](https://user-images.githubusercontent.com/16172615/89800375-e7283b80-db58-11ea-8579-dcd4a0e5bdbf.png)
@@ -31,6 +31,6 @@
 	* Hockey, Cricket, Tennis, Gymnastics, ect...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwMjUzNDc1LDE5NTkwNDgyNzIsMTc0Mj
+eyJoaXN0b3J5IjpbNDAxMjI3MDIxLDE5NTkwNDgyNzIsMTc0Mj
 kzMDc0Myw4OTk2MjQ3MzEsLTM5OTYzNDI0Nl19
 -->
