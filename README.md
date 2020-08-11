@@ -62,9 +62,16 @@ File: applicationContext.xml
 </beans>
 ```
 **Step 2: Create a Spring Container**
+```java
+ClassPathXml
+```
 - Spring Container is generically known as **Application Context**.
 - Specialized implementations
-	- ClassPathXml
+	- ClassPathXmlApplicationContext
+	- AnnotationConfigApplicationContext
+	- GenericWebApplicationContext
+	- other...
+
 
 
 <!--stackedit_data:
@@ -74,7 +81,7 @@ Y2hcIiJ9fSwiY29tbWVudHMiOnsiUVNCbThlWlBPRXpkdFZJdi
 I6eyJkaXNjdXNzaW9uSWQiOiJ6Zno3RVlZTTF6WDNVWlVHIiwi
 c3ViIjoiZ286MTAzNzg5Nzk4NTgwOTMxNDA3MDc5IiwidGV4dC
 I6IklkIGlzIGxpa2UgYW4gYWxpYXMiLCJjcmVhdGVkIjoxNTk3
-MTE4NDMwNjI2fX0sImhpc3RvcnkiOlsxNjM4MTk3NTg3LDQwMT
+MTE4NDMwNjI2fX0sImhpc3RvcnkiOlsxMzI3MDQ1ODcxLDQwMT
 IyNzAyMSw0MDEyMjcwMjEsMTk1OTA0ODI3MiwxNzQyOTMwNzQz
 LDg5OTYyNDczMSwtMzk5NjM0MjQ2XX0=
 -->
