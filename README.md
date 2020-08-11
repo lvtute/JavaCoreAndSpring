@@ -89,7 +89,7 @@ Coach theCoach = context.getBean("myCoach", Coach.class);
 - When Java objects are created by the Spring Container, then Spring refers to them as "Spring Beans".
 - Spring Beans are created from normal Java classes .... just like Java objects.
 
-> In Spring, the objects that form the backbone of your application and that are managed by the Spring IoC container are calles *beans*. A bean is an object that is instantiated, assembled, and otherwise managed by a Spring IoC container. Otherwise, a bean is simply one of many objects in your application. Beans, and the dependencies among them, are reflected in the configuration metadata used by a container.
+> In Spring, the objects that form the backbone of your application and that are managed by the Spring IoC container are called *beans*. A bean is an object that is instantiated, assembled, and otherwise managed by a Spring IoC container. Otherwise, a bean is simply one of many objects in your application. Beans, and the dependencies among them, are reflected in the configuration metadata used by a container.
 
 
 <!--stackedit_data:
@@ -99,7 +99,7 @@ Y2hcIiJ9fSwiY29tbWVudHMiOnsiUVNCbThlWlBPRXpkdFZJdi
 I6eyJkaXNjdXNzaW9uSWQiOiJ6Zno3RVlZTTF6WDNVWlVHIiwi
 c3ViIjoiZ286MTAzNzg5Nzk4NTgwOTMxNDA3MDc5IiwidGV4dC
 I6IklkIGlzIGxpa2UgYW4gYWxpYXMiLCJjcmVhdGVkIjoxNTk3
-MTE4NDMwNjI2fX0sImhpc3RvcnkiOlstMTE4NzMzMDkwOCw0MD
-EyMjcwMjEsNDAxMjI3MDIxLDE5NTkwNDgyNzIsMTc0MjkzMDc0
-Myw4OTk2MjQ3MzEsLTM5OTYzNDI0Nl19
+MTE4NDMwNjI2fX0sImhpc3RvcnkiOlsxNzk5NDY0NDA1LC0xMT
+g3MzMwOTA4LDQwMTIyNzAyMSw0MDEyMjcwMjEsMTk1OTA0ODI3
+MiwxNzQyOTMwNzQzLDg5OTYyNDczMSwtMzk5NjM0MjQ2XX0=
 -->
