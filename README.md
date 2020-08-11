@@ -51,9 +51,16 @@
 3. Retrieve Beans from Spring Container.
 
 **Step 1: Configure your Spring Beans**
+File: applicationContext.xml
+
+```xml
+	
+```
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA5NTg3NzkzLDQwMTIyNzAyMSw0MDEyMj
-cwMjEsMTk1OTA0ODI3MiwxNzQyOTMwNzQzLDg5OTYyNDczMSwt
-Mzk5NjM0MjQ2XX0=
+eyJoaXN0b3J5IjpbLTEzODA0MzU5NTQsNDAxMjI3MDIxLDQwMT
+IyNzAyMSwxOTU5MDQ4MjcyLDE3NDI5MzA3NDMsODk5NjI0NzMx
+LC0zOTk2MzQyNDZdfQ==
 -->
