@@ -30,7 +30,9 @@
 - Easily change the coach for another sport
 	* Hockey, Cricket, Tennis, Gymnastics, ect...
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAxMjI3MDIxLDE5NTkwNDgyNzIsMTc0Mj
-kzMDc0Myw4OTk2MjQ3MzEsLTM5OTYzNDI0Nl19
+eyJoaXN0b3J5IjpbMTA2NTY5NjI1MSw0MDEyMjcwMjEsMTk1OT
+A0ODI3MiwxNzQyOTMwNzQzLDg5OTYyNDczMSwtMzk5NjM0MjQ2
+XX0=
 -->
