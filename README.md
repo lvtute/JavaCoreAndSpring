@@ -84,6 +84,9 @@ Coach theCoach = context.getBean("myCoach", Coach.class);
 // Coach.class: the interface that BaseballCoach implements.
 ```
 
+**What is a Spring Bean?**
+
+
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJ6Zno3RVlZTTF6WDNVWlVHIjp7In
 N0YXJ0IjoyMDU3LCJlbmQiOjIwNjYsInRleHQiOiJcIm15Q29h
@@ -91,7 +94,7 @@ Y2hcIiJ9fSwiY29tbWVudHMiOnsiUVNCbThlWlBPRXpkdFZJdi
 I6eyJkaXNjdXNzaW9uSWQiOiJ6Zno3RVlZTTF6WDNVWlVHIiwi
 c3ViIjoiZ286MTAzNzg5Nzk4NTgwOTMxNDA3MDc5IiwidGV4dC
 I6IklkIGlzIGxpa2UgYW4gYWxpYXMiLCJjcmVhdGVkIjoxNTk3
-MTE4NDMwNjI2fX0sImhpc3RvcnkiOlstMjA3NDE1NTA3Miw0MD
-EyMjcwMjEsNDAxMjI3MDIxLDE5NTkwNDgyNzIsMTc0MjkzMDc0
-Myw4OTk2MjQ3MzEsLTM5OTYzNDI0Nl19
+MTE4NDMwNjI2fX0sImhpc3RvcnkiOlstODEwMTYxMjU5LDQwMT
+IyNzAyMSw0MDEyMjcwMjEsMTk1OTA0ODI3MiwxNzQyOTMwNzQz
+LDg5OTYyNDczMSwtMzk5NjM0MjQ2XX0=
 -->
