@@ -54,13 +54,18 @@
 File: applicationContext.xml
 
 ```xml
-	
+<beans ...>
+
+	<bean id="myCoach"
+		class="com.thuan.springdemo.BaseballCoach" >
+	</bean>
+</beans>
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODA0MzU5NTQsNDAxMjI3MDIxLDQwMT
-IyNzAyMSwxOTU5MDQ4MjcyLDE3NDI5MzA3NDMsODk5NjI0NzMx
-LC0zOTk2MzQyNDZdfQ==
+eyJoaXN0b3J5IjpbMTAyOTI5NDQ1Niw0MDEyMjcwMjEsNDAxMj
+I3MDIxLDE5NTkwNDgyNzIsMTc0MjkzMDc0Myw4OTk2MjQ3MzEs
+LTM5OTYzNDI0Nl19
 -->
