@@ -73,7 +73,14 @@ ClassPathXmlApplicationContext context =
 	- GenericWebApplicationContext
 	- other...
 
-**Step 3: R**
+**Step 3:  Retrieve Beans from Container**
+```java
+// create a Spring Container
+ClassPathXmlApplicationContext context = 
+	new ClassPathXmlApplicationContext("applicationContext.xml");
+// retrieve bean from Spring Container
+Coach theCoach = context.getBean("myCoach", Coach.class);
+```
 
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJ6Zno3RVlZTTF6WDNVWlVHIjp7In
@@ -82,7 +89,7 @@ Y2hcIiJ9fSwiY29tbWVudHMiOnsiUVNCbThlWlBPRXpkdFZJdi
 I6eyJkaXNjdXNzaW9uSWQiOiJ6Zno3RVlZTTF6WDNVWlVHIiwi
 c3ViIjoiZ286MTAzNzg5Nzk4NTgwOTMxNDA3MDc5IiwidGV4dC
 I6IklkIGlzIGxpa2UgYW4gYWxpYXMiLCJjcmVhdGVkIjoxNTk3
-MTE4NDMwNjI2fX0sImhpc3RvcnkiOlsxOTU4ODU5ODcwLDQwMT
-IyNzAyMSw0MDEyMjcwMjEsMTk1OTA0ODI3MiwxNzQyOTMwNzQz
-LDg5OTYyNDczMSwtMzk5NjM0MjQ2XX0=
+MTE4NDMwNjI2fX0sImhpc3RvcnkiOlstMTEwMDI4OTYyNiw0MD
+EyMjcwMjEsNDAxMjI3MDIxLDE5NTkwNDgyNzIsMTc0MjkzMDc0
+Myw4OTk2MjQ3MzEsLTM5OTYzNDI0Nl19
 -->
