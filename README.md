@@ -39,14 +39,18 @@
 	- Inject object's dependencies (Dependency Injection)
 
 ![image](https://user-images.githubusercontent.com/16172615/89855189-0c9c6000-dbc0-11ea-83cd-718a2502cf13.png)
+
 **Configuring Spring Container** (3 ways)
 - XML Configuration file *(legacy, but most legacy app still use this)*
 - Java annotation *(modern)*
 - Java Source code *(modern)*
+
 **Spring Development process**
-1. Config
+1. Configure your Spring Beans.
+2. Create a Spring Container.
+3. Retrieve Beans from Spring Container.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg2NTg1MzQ1LDQwMTIyNzAyMSw0MDEyMj
-cwMjEsMTk1OTA0ODI3MiwxNzQyOTMwNzQzLDg5OTYyNDczMSwt
-Mzk5NjM0MjQ2XX0=
+eyJoaXN0b3J5IjpbLTY1NzU3MTI0Myw0MDEyMjcwMjEsNDAxMj
+I3MDIxLDE5NTkwNDgyNzIsMTc0MjkzMDc0Myw4OTk2MjQ3MzEs
+LTM5OTYzNDI0Nl19
 -->
