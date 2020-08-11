@@ -49,8 +49,10 @@
 1. Configure your Spring Beans.
 2. Create a Spring Container.
 3. Retrieve Beans from Spring Container.
+
+**Step 1: Configure your Spring Bean**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NzU3MTI0Myw0MDEyMjcwMjEsNDAxMj
-I3MDIxLDE5NTkwNDgyNzIsMTc0MjkzMDc0Myw4OTk2MjQ3MzEs
-LTM5OTYzNDI0Nl19
+eyJoaXN0b3J5IjpbNzQxNDM2ODk0LDQwMTIyNzAyMSw0MDEyMj
+cwMjEsMTk1OTA0ODI3MiwxNzQyOTMwNzQzLDg5OTYyNDczMSwt
+Mzk5NjM0MjQ2XX0=
 -->
