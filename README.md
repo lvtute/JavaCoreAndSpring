@@ -34,9 +34,11 @@
 
 ![image](https://user-images.githubusercontent.com/16172615/89854940-67818780-dbbf-11ea-8411-4a6df9a2342f.png)
 **Spring Container**
-- 
+- Primary functions
+	- Create and manage objects (Inversion of Control)
+	- Inject object's dependencies 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1OTY3OTQsNDAxMjI3MDIxLDQwMTIyNz
-AyMSwxOTU5MDQ4MjcyLDE3NDI5MzA3NDMsODk5NjI0NzMxLC0z
-OTk2MzQyNDZdfQ==
+eyJoaXN0b3J5IjpbLTE1ODQ0MDIyNDYsNDAxMjI3MDIxLDQwMT
+IyNzAyMSwxOTU5MDQ4MjcyLDE3NDI5MzA3NDMsODk5NjI0NzMx
+LC0zOTk2MzQyNDZdfQ==
 -->
