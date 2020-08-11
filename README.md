@@ -103,8 +103,7 @@ Coach theCoach = context.getBean("myCoach", Coach.class);
 		- **Construction injection**
 		- **Setter injection**
 	- Will talk about "auto-wiring" in the Annotations section later
-	- Development process- Constructor injection
-		- 1
+
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJ6Zno3RVlZTTF6WDNVWlVHIjp7In
 N0YXJ0IjoyMDgxLCJlbmQiOjIwOTAsInRleHQiOiJcIm15Q29h
@@ -112,8 +111,8 @@ Y2hcIiJ9fSwiY29tbWVudHMiOnsiUVNCbThlWlBPRXpkdFZJdi
 I6eyJkaXNjdXNzaW9uSWQiOiJ6Zno3RVlZTTF6WDNVWlVHIiwi
 c3ViIjoiZ286MTAzNzg5Nzk4NTgwOTMxNDA3MDc5IiwidGV4dC
 I6IklkIGlzIGxpa2UgYW4gYWxpYXMiLCJjcmVhdGVkIjoxNTk3
-MTE4NDMwNjI2fX0sImhpc3RvcnkiOlstMTg4MTA3OTQ4MSwxNz
-k5NDY0NDA1LC0xMTg3MzMwOTA4LDQwMTIyNzAyMSw0MDEyMjcw
-MjEsMTk1OTA0ODI3MiwxNzQyOTMwNzQzLDg5OTYyNDczMSwtMz
-k5NjM0MjQ2XX0=
+MTE4NDMwNjI2fX0sImhpc3RvcnkiOlsxNTU3NzMxNTY4LDE3OT
+k0NjQ0MDUsLTExODczMzA5MDgsNDAxMjI3MDIxLDQwMTIyNzAy
+MSwxOTU5MDQ4MjcyLDE3NDI5MzA3NDMsODk5NjI0NzMxLC0zOT
+k2MzQyNDZdfQ==
 -->
