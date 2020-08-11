@@ -97,6 +97,12 @@ Coach theCoach = context.getBean("myCoach", Coach.class);
 
 ![image](https://user-images.githubusercontent.com/16172615/89857602-bda5f900-dbc6-11ea-87f7-833e55fbd75c.png)
 - "dependency" same thing as "helper object".
+- Injcection types:
+	- There are many types of injection with Spring
+	- 2 most common:
+		- Construction injection
+		- Setter injection
+	- Will talk about "au
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyJ6Zno3RVlZTTF6WDNVWlVHIjp7In
 N0YXJ0IjoyMDgxLCJlbmQiOjIwOTAsInRleHQiOiJcIm15Q29h
@@ -104,8 +110,8 @@ Y2hcIiJ9fSwiY29tbWVudHMiOnsiUVNCbThlWlBPRXpkdFZJdi
 I6eyJkaXNjdXNzaW9uSWQiOiJ6Zno3RVlZTTF6WDNVWlVHIiwi
 c3ViIjoiZ286MTAzNzg5Nzk4NTgwOTMxNDA3MDc5IiwidGV4dC
 I6IklkIGlzIGxpa2UgYW4gYWxpYXMiLCJjcmVhdGVkIjoxNTk3
-MTE4NDMwNjI2fX0sImhpc3RvcnkiOlstMjA2OTMwMDE3MiwxNz
-k5NDY0NDA1LC0xMTg3MzMwOTA4LDQwMTIyNzAyMSw0MDEyMjcw
-MjEsMTk1OTA0ODI3MiwxNzQyOTMwNzQzLDg5OTYyNDczMSwtMz
-k5NjM0MjQ2XX0=
+MTE4NDMwNjI2fX0sImhpc3RvcnkiOls3ODA1MzA3MzksMTc5OT
+Q2NDQwNSwtMTE4NzMzMDkwOCw0MDEyMjcwMjEsNDAxMjI3MDIx
+LDE5NTkwNDgyNzIsMTc0MjkzMDc0Myw4OTk2MjQ3MzEsLTM5OT
+YzNDI0Nl19
 -->
