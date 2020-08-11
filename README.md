@@ -23,18 +23,20 @@
 - Outsource to a object factory.
 ## Some basic Spring Core projects with explaination
 ### 1. spring-demo-one
-- **Coding scenerio**
+ **Coding scenerio**
 
 ![image](https://user-images.githubusercontent.com/16172615/89800375-e7283b80-db58-11ea-8579-dcd4a0e5bdbf.png)
 - App should be configurable.
 - Easily change the coach for another sport
 	* Hockey, Cricket, Tennis, Gymnastics, ect...
-- **Ideal solution**
+
+**Ideal solution**
 
 ![image](https://user-images.githubusercontent.com/16172615/89854940-67818780-dbbf-11ea-8411-4a6df9a2342f.png)
-
+**Spring Container**
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMDM2NzMwMyw0MDEyMjcwMjEsNDAxMj
-I3MDIxLDE5NTkwNDgyNzIsMTc0MjkzMDc0Myw4OTk2MjQ3MzEs
-LTM5OTYzNDI0Nl19
+eyJoaXN0b3J5IjpbMTc1OTY3OTQsNDAxMjI3MDIxLDQwMTIyNz
+AyMSwxOTU5MDQ4MjcyLDE3NDI5MzA3NDMsODk5NjI0NzMxLC0z
+OTk2MzQyNDZdfQ==
 -->
