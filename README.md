@@ -39,9 +39,12 @@
 	- Inject object's dependencies (Dependency Injection)
 
 ![image](https://user-images.githubusercontent.com/16172615/89855189-0c9c6000-dbc0-11ea-83cd-718a2502cf13.png)
-**Configuring Spring Co
+**Configuring Spring Container** (3 ways)
+- XML Configuration file *(legacy, but most legacy app still use this)*
+- Java annotation *(modern)*
+- Java Source code
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NDg2MzkyNCw0MDEyMjcwMjEsNDAxMj
+eyJoaXN0b3J5IjpbLTU1ODQ5MTg1OSw0MDEyMjcwMjEsNDAxMj
 I3MDIxLDE5NTkwNDgyNzIsMTc0MjkzMDc0Myw4OTk2MjQ3MzEs
 LTM5OTYzNDI0Nl19
 -->
