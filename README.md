@@ -36,9 +36,12 @@
 **Spring Container**
 - Primary functions
 	- Create and manage objects (Inversion of Control)
-	- Inject object's dependencies 
+	- Inject object's dependencies (Dependency Injection)
+
+![image](https://user-images.githubusercontent.com/16172615/89855189-0c9c6000-dbc0-11ea-83cd-718a2502cf13.png)
+**Configuring Spring Co
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODQ0MDIyNDYsNDAxMjI3MDIxLDQwMT
-IyNzAyMSwxOTU5MDQ4MjcyLDE3NDI5MzA3NDMsODk5NjI0NzMx
-LC0zOTk2MzQyNDZdfQ==
+eyJoaXN0b3J5IjpbLTY2NDg2MzkyNCw0MDEyMjcwMjEsNDAxMj
+I3MDIxLDE5NTkwNDgyNzIsMTc0MjkzMDc0Myw4OTk2MjQ3MzEs
+LTM5OTYzNDI0Nl19
 -->
