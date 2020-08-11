@@ -88,7 +88,8 @@ Coach theCoach = context.getBean("myCoach", Coach.class);
 - A "Spring Bean" is simply a Java object.
 - When Java objects are created by the Spring Container, then Spring refers to them as "Spring Beans".
 - Spring Beans are created from normal Java classes .... just like Java objects.
-- 
+
+> In Spring, the objects that form the backbone of your application and that are managed by the Spring IoC container are calles *beans*. A bean is an object that is instantiated, assembled, and othe
 
 
 <!--stackedit_data:
@@ -98,7 +99,7 @@ Y2hcIiJ9fSwiY29tbWVudHMiOnsiUVNCbThlWlBPRXpkdFZJdi
 I6eyJkaXNjdXNzaW9uSWQiOiJ6Zno3RVlZTTF6WDNVWlVHIiwi
 c3ViIjoiZ286MTAzNzg5Nzk4NTgwOTMxNDA3MDc5IiwidGV4dC
 I6IklkIGlzIGxpa2UgYW4gYWxpYXMiLCJjcmVhdGVkIjoxNTk3
-MTE4NDMwNjI2fX0sImhpc3RvcnkiOlsxNDUwNTk4MzEzLDQwMT
+MTE4NDMwNjI2fX0sImhpc3RvcnkiOlsxNjA0OTA5ODM0LDQwMT
 IyNzAyMSw0MDEyMjcwMjEsMTk1OTA0ODI3MiwxNzQyOTMwNzQz
 LDg5OTYyNDczMSwtMzk5NjM0MjQ2XX0=
 -->
