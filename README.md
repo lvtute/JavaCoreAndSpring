@@ -42,9 +42,11 @@
 **Configuring Spring Container** (3 ways)
 - XML Configuration file *(legacy, but most legacy app still use this)*
 - Java annotation *(modern)*
-- Java Source code
+- Java Source code *(modern)*
+**Spring Development process**
+1. Config
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1ODQ5MTg1OSw0MDEyMjcwMjEsNDAxMj
-I3MDIxLDE5NTkwNDgyNzIsMTc0MjkzMDc0Myw4OTk2MjQ3MzEs
-LTM5OTYzNDI0Nl19
+eyJoaXN0b3J5IjpbNDg2NTg1MzQ1LDQwMTIyNzAyMSw0MDEyMj
+cwMjEsMTk1OTA0ODI3MiwxNzQyOTMwNzQzLDg5OTYyNDczMSwt
+Mzk5NjM0MjQ2XX0=
 -->
