@@ -80,6 +80,8 @@ ClassPathXmlApplicationContext context =
 	new ClassPathXmlApplicationContext("applicationContext.xml");
 // retrieve bean from Spring Container
 Coach theCoach = context.getBean("myCoach", Coach.class);
+// "myCoach" is id of the bean
+// Coach.class: the interface that BaseballCoach implements.
 ```
 
 <!--stackedit_data:
@@ -89,7 +91,7 @@ Y2hcIiJ9fSwiY29tbWVudHMiOnsiUVNCbThlWlBPRXpkdFZJdi
 I6eyJkaXNjdXNzaW9uSWQiOiJ6Zno3RVlZTTF6WDNVWlVHIiwi
 c3ViIjoiZ286MTAzNzg5Nzk4NTgwOTMxNDA3MDc5IiwidGV4dC
 I6IklkIGlzIGxpa2UgYW4gYWxpYXMiLCJjcmVhdGVkIjoxNTk3
-MTE4NDMwNjI2fX0sImhpc3RvcnkiOlstMTEwMDI4OTYyNiw0MD
+MTE4NDMwNjI2fX0sImhpc3RvcnkiOlstMjA3NDE1NTA3Miw0MD
 EyMjcwMjEsNDAxMjI3MDIxLDE5NTkwNDgyNzIsMTc0MjkzMDc0
 Myw4OTk2MjQ3MzEsLTM5OTYzNDI0Nl19
 -->
