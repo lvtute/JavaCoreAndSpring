@@ -104,15 +104,13 @@ Coach theCoach = context.getBean("myCoach", Coach.class);
 		- **Setter injection**
 	- Will talk about "auto-wiring" in the Annotations section later
 
-<!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyJ6Zno3RVlZTTF6WDNVWlVHIjp7In
-N0YXJ0IjoyMDgxLCJlbmQiOjIwOTAsInRleHQiOiJcIm15Q29h
-Y2hcIiJ9fSwiY29tbWVudHMiOnsiUVNCbThlWlBPRXpkdFZJdi
-I6eyJkaXNjdXNzaW9uSWQiOiJ6Zno3RVlZTTF6WDNVWlVHIiwi
-c3ViIjoiZ286MTAzNzg5Nzk4NTgwOTMxNDA3MDc5IiwidGV4dC
-I6IklkIGlzIGxpa2UgYW4gYWxpYXMiLCJjcmVhdGVkIjoxNTk3
-MTE4NDMwNjI2fX0sImhpc3RvcnkiOlsxNTU3NzMxNTY4LDE3OT
-k0NjQ0MDUsLTExODczMzA5MDgsNDAxMjI3MDIxLDQwMTIyNzAy
-MSwxOTU5MDQ4MjcyLDE3NDI5MzA3NDMsODk5NjI0NzMxLC0zOT
-k2MzQyNDZdfQ==
--->
+**Bean Scopes**
+- Scope refers to the lifecycle of the beans.
+- How long does a bean live?
+- How many instances are created?
+- How is the bean shared?
+
+**Bean is Singleton**
+- The Singleton scope is default.
+- Spring makes use of Singleton, it'll create only one bean and then share it for everyone who requested that bean.
+- **Additional Spring bean scopes**:
