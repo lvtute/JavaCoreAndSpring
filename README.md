@@ -114,3 +114,25 @@ Coach theCoach = context.getBean("myCoach", Coach.class);
 - The Singleton scope is default.
 - Spring makes use of Singleton, it'll create only one bean and then share it for everyone who requested that bean.
 - **Additional Spring bean scopes**:
+![image](https://user-images.githubusercontent.com/16172615/89923383-b57fa500-dc2a-11ea-8d19-59171d8f12cd.png)
+
+### 2. spring-demo-annotation
+**What are Java annotation?**
+- Special labels/markers added to Java classes.
+- Provide meta-data about the classes.
+- Processed at compile time or run-time for special processing.
+
+**Spring also supports Default Bean IDs**
+- Default bean ID: the class name, *make first letter lower-case*.
+![image](https://user-images.githubusercontent.com/16172615/91728107-d3f31380-ebcc-11ea-86a8-0c3cef8d08ce.png)
+
+**What is Spring Autowiring?**
+- For dependency injection, Spring can use autowiring.
+- Spring will look for a class that *matches* the property
+	- matches by type: class or interface.
+- Spring will inject it automatically... hence it is autowired.
+
+**Autowiring Injection types**
+- Constructor injection 
+- Setter injection 
+- Field injection
