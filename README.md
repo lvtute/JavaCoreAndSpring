@@ -136,3 +136,36 @@ Coach theCoach = context.getBean("myCoach", Coach.class);
 - Constructor injection 
 - Setter injection 
 - Field injection
+**Bean lifecycle methods/ Hooks**
+- You can add custom code during bean initialization
+	- Calling custom business logic methods
+	- Setting up handles to resources(db, socket, files).
+- You can add code during bean destruction
+	- Calling custom business logic method
+	- Clean up handles to resources(db, socket, files, ect).
+- *Development process*
+	1. Define your method for init and destroy
+	2. Add annotations: @PostConstruc and @PreDestroy
+
+
+**Java Configuration**
+- Instead of configuring Spring container using XML.
+- Configure the Spring container with Java code. => no XML.
+
+**3 Ways of configuring Spring container**
+1. Full XML config
+![image](https://user-images.githubusercontent.com/16172615/91971905-230f8480-ed44-11ea-817d-a714cba29128.png)
+
+2. XML Component Scan
+![image](https://user-images.githubusercontent.com/16172615/91971998-3fabbc80-ed44-11ea-8b46-91121eb94bdf.png)
+
+3. Java configuration class
+![image](https://user-images.githubusercontent.com/16172615/91972118-6c5fd400-ed44-11ea-91f6-da3f08c6f71f.png)
+
+**Spring MVC overview**
+- What is Spring MVC?
+	- Framework for building web application in Java.
+	- Based on Model-View-Controller design pattern.
+	- Leverages features of the core spring framework (IoC, IJ)
+	
+### 3. spring-mvc-demo
