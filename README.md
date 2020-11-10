@@ -169,3 +169,95 @@ Coach theCoach = context.getBean("myCoach", Coach.class);
 	- Leverages features of the core spring framework (IoC, IJ)
 	
 ### 3. spring-mvc-demo
+- __@Controller__ inherits from __@Component__... supports scanning.
+- @RequestParam
+
+**Spring MVC Form Tags**
+- Form Tags will generate HTMl for you.
+
+
+**Spring Validation Annotation**
+spring-mvc-validation-required-fields
+
+**Hibernate**
+- How does Hibernate relate to JDBC?
+- Hibernate uses JDBC for all database communications
+
+![image](https://user-images.githubusercontent.com/16172615/96584790-ec4bf880-1308-11eb-9237-15bfb30f979d.png)
+
+
+- Hibernate config with annotation
+
+
+**Service**
+Purposes of Service Layer
+- Service Facade design pattern.
+- Intermediate layer for custom business logic.
+- Integrate data from multiple sources (DAO/repository)
+
+![image](https://user-images.githubusercontent.com/16172615/97334505-68b57d00-18af-11eb-842f-3eb8c75f362b.png)
+
+
+**Aspects**
+- Aspects can be used at multiple locations.
+- Same aspect/ class ... applied based on configuration.
+
+![image](https://user-images.githubusercontent.com/16172615/97336214-55a3ac80-18b1-11eb-8cec-04d6542d5572.png)
+
+**AOP solution**
+![image](https://user-images.githubusercontent.com/16172615/97336345-7cfa7980-18b1-11eb-80ff-0fd46145ebe1.png)
+
+**Benefits of AOP**
+- Code for Aspect is defined in a single class
+	- Much better than being scattered everywhere
+	- Promotes code reuse and easier to change
+- Business code in your application is cleaner
+	- Only applies to business functionality: addAccount
+	- Reduces code complexity
+- Configurable
+	- Based on configuration, apply Aspects selectively to different parts of app
+	- No need to make changes to main application code... very important!
+
+**Additional AOP Use Cases**
+- Most common
+	- logging, security, transactions
+- Audit loggin
+	- who, what, when, where
+- Exception handling
+	- log exception and notify DevOps team via SMS/email
+- API Management
+	- how many times has a method been called user
+	- analytics: what are peak time? what is average load? who is top user?
+
+**AOP: Advantages and disadvantages**
+![image](https://user-images.githubusercontent.com/16172615/97337283-aec01000-18b2-11eb-92be-c08271825ddf.png)
+
+**AOP Terminology**
+- Aspect: module of code for a cross-cutting concern (logging, security)
+- Advice: What action is taken and when it should be applied
+- Join Point: When to apply code during program execution
+- Pointcut: A predicate expression for where advice should be applied.
+
+***Advice Types***
+- Before advoce: run before the method
+- After finally advice: run after the method (finally)
+- After returning Advice:  run after the method (success execution)
+- After throwing advice: run after method (if exception thrown)
+- Around advice: run befor and after method
+
+**Weaving**
+- Connecting aspects to target objects to create an advised object
+
+**JpaRepository**
+- Spring Data Jpa
+- Spring Data Rest (springboot-starter-data-rest)
+
+- HATEOAS: Hypermedia as the Engine of Application State
+- Hypermedia-driven site provide information to access REST interfaces.
+	- Think of it as meta-data for REST data.
+
+- Spring Data REST advanced features:
+	- Pagination, sorting and searching.
+	- Extending and adding custom queries with JPQL
+	- Query Domain Specific Language (Query DSL)
+	@PostConstruct
